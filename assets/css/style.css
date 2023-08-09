@@ -26,3 +26,7 @@ a{
 .nav-link{
        font-size: 24px;
 }
+#burger{
+          font-size: 12px;
+       color: black !important;
+}
