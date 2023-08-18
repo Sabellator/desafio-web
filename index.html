@@ -22,7 +22,7 @@
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning">
             <div class="container-fluid">
-                <a class="navbar-brand" ms-5 me-5 href="#"><img class="logo-uli-nav "
+                <a class="navbar-brand ms-5 me-5" href="#"><img class="logo-uli-nav "
                         src="./assets/img/logo_Ulises_SVG_CV.svg" alt="logo-diseñador"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -33,26 +33,27 @@
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active me-5" aria-current="page" href="#">Inicio</a>
                         <a class="nav-link me-5" href="portafolio.html">Portafolio</a>
+                        <a class="nav-link me-5" href="contacto.html">Contacto</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main class="m-5">
-        <section>
-            <div class="d-flex justify-content-center mb-5">
+        <section class="row">
+            <div class="col-2 col-md-2 d-flex m-3">
                 <img class="foto-perfil" src="./assets/img/img_yo_cv.png" alt="Imagen de perfil de Ulises">
             </div>
-            <div class="text-center">
-                <h1>Ulises Sabelle O.</h1>
+            <div class="col-10 col-md-9 text-start ps-md-5 mt-5 ms-3 ms-md-5">
+                <h1 class="pb-3">Ulises Sabelle O.</h1>
                 <hr>
-                <h2>Diseñador Industrial</h2>
-                <h3>UX UI</h3>
-                <hr>
+                <h3 class="pt-3">Diseñador Industrial</h3>
+                <h4>UX-UI</h4>
+                <!-- <hr> -->
             </div>
         </section>
-        <article>
-            <h4 class="pt-3">¡Hola Bienvenido!</h4>
+        <article class="mx-3 mb-5">
+            <h4 class="py-5">¡Hola Bienvenides!</h4>
             <p>Te invito a conocer algunos de mis trabajos,participaciones y algo mi visión.
 
                 Soy un profesional que busca sorprender con la calidad de su trabajo, tengo experiencia con la capacidad
@@ -70,59 +71,33 @@
                 e inquietudes.
 
                 Gracias por visitar mi portafolio web.</p>
-            <section id="experiencia">
-                <h2 class="text-center my-5">EXPERIENCIA</h2>
-                <ul>
-                    <li>
-                        <h2>Ruta Laser</h2>
-                        <h3>Jefe Técnico</h3>
-                        <h6>2019-2021</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptas. Sed nihil
-                            asperiores
-                            assumenda, iste unde incidunt harum, porro nobis repudiandae similique quisquam libero velit
-                            aut
-                            repellat cumque amet temporibus!
-                            Nesciunt earum, eos quos ratione quidem labore, perferendis autem non voluptas expedita
-                            culpa
-                            repudiandae corrupti iusto ad. Quas dolore voluptates culpa impedit voluptatem est, dolorum
-                            dolores quod? Praesentium, molestias officiis!
-                            Nostrum cum fuga, dolor eligendi dolorum est ut alias similique ad pariatur facere omnis
-                            assumenda unde ullam aut aperiam accusantium? Fuga reprehenderit veritatis, nostrum odit
-                            suscipit cumque in provident aperiam?
-                            Totam ipsam esse libero accusantium delectus dolores rerum non quod quisquam nihil
-                            doloremque
-                            illum exercitationem dolorem labore repellat sed voluptatibus, amet alias corporis iste
-                            incidunt
-                            a cupiditate minima nam. Praesentium?
-                            Repellat recusandae distinctio dolore ratione a vel maiores pariatur nam veniam sed odit
-                            libero
-                            porro maxime nulla quis consequatur, commodi nihil voluptates minus officiis facere aut
-                            provident. Sint, autem aut.
-                            Modi minima soluta quam, eveniet suscipit voluptate enim odit, sint sapiente molestiae
-                            beatae
-                            aliquam. Numquam accusamus repudiandae deleniti cupiditate aspernatur corrupti veritatis.
-                            Eligendi nulla debitis vero necessitatibus inventore officia dolorem.
-                            Accusamus doloremque ex unde exercitationem dignissimos optio voluptatibus praesentium,
-                            dolorem
-                            fugiat. Perspiciatis deserunt nostrum nisi debitis eaque magni nesciunt ea. Sed quam vero
-                            provident ab nemo perferendis doloremque praesentium! Eligendi.</p>
-                    </li>
-                    <li>
-                        <h2>Austera</h2>
-                        <h3>Director de arte</h3>
-                        <h6>2019-2020</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nostrum illum molestias
-                            incidunt dolores, similique totam autem nobis maxime quia vero aspernatur eum quod id! Culpa
-                            eius architecto nisi totam!
-                            Nulla exercitationem eaque corrupti veniam impedit inventore delectus veritatis in? Aliquid
-                            deserunt consequatur reprehenderit? Modi hic blanditiis, sequi temporibus exercitationem,
-                            optio
-                            molestiae quibusdam iste debitis cum, vero repellendus unde tempora.
-                            Dolor odio ratione molestias impedit consectetur fugiat commodi blanditiis quis sed. Odit
-                            dolorem tenetur atque sequi id reiciendis molestias est suscipit, nihil explicabo ex quasi!
-                            Repudiandae veritatis sequi doloremque porro!</p>
-                    </li>
-                </ul>
+
+            <section class="work-cards py-5">
+                <div class="img-works d-none d-lg-block">
+                    <a href="https://www.linkedin.com/?original_referer=" target="_blank" class="card-link">
+                        <img class="card-img card-img1 d-none d-lg-block" src="./assets/img/ruta-laser.png"
+                            alt="proyecto laser"></a>
+                </div>
+                <div class="img-works d-none d-lg-block">
+                    <a href="https://www.linkedin.com/?original_referer=" target="_blank" class="card-link">
+                        <img class="card-img card-img2 d-none d-lg-block" src="./assets/img/austera.png"
+                            alt="proyecto austera"></a>
+                </div>
+                <div id="ruta-laser-card" class="card container py-5 my-5">
+                    <h4 class="card-title py-3">Ruta Laser</h4>
+                    <p class="card-info">2019-2021</p>
+                    <h5 class="card-subtitle py-3">Jefe Técnico</h5>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://www.linkedin.com/?original_referer=" target="_blank" class="card-link">Sitio web de la empresa</a>
+                </div>
+                <hr>
+                <div id="austera-card" class="card container py-5 my-5">
+                    <h4 class="card-title py-3">Austera</h4>
+                    <p class="card-info">2019-2020</p>
+                    <h5 class="card-subtitle py-3">Director de arte</h5>
+                    <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://www.linkedin.com/?original_referer=" target="_blank" class="card-link">Sitio web de la empresa</a>
+                </div>
             </section>
             <section id="estudios"></section>
             <section id="referencias"></section>
@@ -152,7 +127,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
